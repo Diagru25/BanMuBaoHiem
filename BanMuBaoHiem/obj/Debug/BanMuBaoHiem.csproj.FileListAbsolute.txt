@@ -11,3 +11,6 @@ D:\Lap Trinh\BanMu\BanMuBaoHiem\BanMuBaoHiem\obj\Debug\BanMuBaoHiem.UserControl_
 D:\Lap Trinh\BanMu\BanMuBaoHiem\BanMuBaoHiem\obj\Debug\BanMuBaoHiem.UserControl_Product.resources
 D:\Lap Trinh\BanMu\BanMuBaoHiem\BanMuBaoHiem\obj\Debug\BanMuBaoHiem.UserControl_Search.resources
 D:\Lap Trinh\BanMu\BanMuBaoHiem\BanMuBaoHiem\obj\Debug\BanMuBaoHiem.Form_main.resources
+D:\Lap Trinh\BanMu\BanMuBaoHiemgit\BanMuBaoHiem\bin\Debug\BanMuBaoHiem.exe.config
+D:\Lap Trinh\BanMu\BanMuBaoHiemgit\BanMuBaoHiem\obj\Debug\BanMuBaoHiem.exe
+D:\Lap Trinh\BanMu\BanMuBaoHiemgit\BanMuBaoHiem\obj\Debug\BanMuBaoHiem.pdb
