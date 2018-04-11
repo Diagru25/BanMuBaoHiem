@@ -1,0 +1,13 @@
+D:\Lap Trinh\BanMu\BanMuBaoHiem\BanMuBaoHiem\bin\Debug\BanMuBaoHiem.exe.config
+D:\Lap Trinh\BanMu\BanMuBaoHiem\BanMuBaoHiem\bin\Debug\BanMuBaoHiem.exe
+D:\Lap Trinh\BanMu\BanMuBaoHiem\BanMuBaoHiem\bin\Debug\BanMuBaoHiem.pdb
+D:\Lap Trinh\BanMu\BanMuBaoHiem\BanMuBaoHiem\obj\Debug\BanMuBaoHiem.csprojResolveAssemblyReference.cache
+D:\Lap Trinh\BanMu\BanMuBaoHiem\BanMuBaoHiem\obj\Debug\BanMuBaoHiem.Properties.Resources.resources
+D:\Lap Trinh\BanMu\BanMuBaoHiem\BanMuBaoHiem\obj\Debug\BanMuBaoHiem.csproj.GenerateResource.Cache
+D:\Lap Trinh\BanMu\BanMuBaoHiem\BanMuBaoHiem\obj\Debug\BanMuBaoHiem.exe
+D:\Lap Trinh\BanMu\BanMuBaoHiem\BanMuBaoHiem\obj\Debug\BanMuBaoHiem.pdb
+D:\Lap Trinh\BanMu\BanMuBaoHiem\BanMuBaoHiem\obj\Debug\BanMuBaoHiem.UserControl_CategoryProduct.resources
+D:\Lap Trinh\BanMu\BanMuBaoHiem\BanMuBaoHiem\obj\Debug\BanMuBaoHiem.UserControl_Employee.resources
+D:\Lap Trinh\BanMu\BanMuBaoHiem\BanMuBaoHiem\obj\Debug\BanMuBaoHiem.UserControl_Product.resources
+D:\Lap Trinh\BanMu\BanMuBaoHiem\BanMuBaoHiem\obj\Debug\BanMuBaoHiem.UserControl_Search.resources
+D:\Lap Trinh\BanMu\BanMuBaoHiem\BanMuBaoHiem\obj\Debug\BanMuBaoHiem.Form_main.resources
