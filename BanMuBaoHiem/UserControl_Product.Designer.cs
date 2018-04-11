@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgr_product = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.cbo_supplier = new System.Windows.Forms.ComboBox();
             this.txb_product_quantity = new System.Windows.Forms.TextBox();
@@ -44,17 +44,30 @@
             this.btn_delete = new System.Windows.Forms.Button();
             this.btn_edit = new System.Windows.Forms.Button();
             this.btn_insert = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Product_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CategoryID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Supplier_name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dgr_product)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgr_product
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(3, 204);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(782, 274);
-            this.dataGridView1.TabIndex = 0;
+            this.dgr_product.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgr_product.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID,
+            this.Product_name,
+            this.Price,
+            this.Quantity,
+            this.CategoryID,
+            this.Supplier_name});
+            this.dgr_product.Location = new System.Drawing.Point(3, 204);
+            this.dgr_product.Name = "dgr_product";
+            this.dgr_product.Size = new System.Drawing.Size(782, 274);
+            this.dgr_product.TabIndex = 0;
             // 
             // panel1
             // 
@@ -197,15 +210,63 @@
             this.btn_insert.Text = "Thêm";
             this.btn_insert.UseVisualStyleBackColor = true;
             // 
+            // ID
+            // 
+            this.ID.DataPropertyName = "ID";
+            this.ID.HeaderText = "Mã sản phẩm";
+            this.ID.Name = "ID";
+            this.ID.ReadOnly = true;
+            // 
+            // Product_name
+            // 
+            this.Product_name.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Product_name.DataPropertyName = "Name";
+            this.Product_name.HeaderText = "Tên sản phẩm";
+            this.Product_name.Name = "Product_name";
+            this.Product_name.ReadOnly = true;
+            // 
+            // Price
+            // 
+            this.Price.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Price.DataPropertyName = "Price";
+            this.Price.HeaderText = "Đơn giá";
+            this.Price.Name = "Price";
+            this.Price.ReadOnly = true;
+            // 
+            // Quantity
+            // 
+            this.Quantity.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Quantity.DataPropertyName = "Quantity";
+            this.Quantity.HeaderText = "Số lượng";
+            this.Quantity.Name = "Quantity";
+            this.Quantity.ReadOnly = true;
+            // 
+            // CategoryID
+            // 
+            this.CategoryID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.CategoryID.DataPropertyName = "CategoryID";
+            this.CategoryID.HeaderText = "CategoryID";
+            this.CategoryID.Name = "CategoryID";
+            this.CategoryID.ReadOnly = true;
+            this.CategoryID.Visible = false;
+            // 
+            // Supplier_name
+            // 
+            this.Supplier_name.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Supplier_name.DataPropertyName = "supplier_name";
+            this.Supplier_name.HeaderText = "Hãng";
+            this.Supplier_name.Name = "Supplier_name";
+            this.Supplier_name.ReadOnly = true;
+            // 
             // UserControl_Product
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgr_product);
             this.Name = "UserControl_Product";
             this.Size = new System.Drawing.Size(788, 481);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgr_product)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -214,7 +275,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgr_product;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ComboBox cbo_supplier;
         private System.Windows.Forms.TextBox txb_product_quantity;
@@ -230,5 +291,11 @@
         private System.Windows.Forms.Button btn_delete;
         private System.Windows.Forms.Button btn_edit;
         private System.Windows.Forms.Button btn_insert;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Product_name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Price;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Quantity;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CategoryID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Supplier_name;
     }
 }
