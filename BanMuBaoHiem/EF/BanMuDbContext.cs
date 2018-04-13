@@ -8,7 +8,7 @@ namespace BanMuBaoHiem.EF
     public partial class BanMuDbContext : DbContext
     {
         public BanMuDbContext()
-            : base("name=BanMuDbContext")
+            : base("name=BanMuDbContext1")
         {
         }
 
