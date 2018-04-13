@@ -13,5 +13,11 @@ namespace BanMuBaoHiem.EF
 
         [StringLength(50)]
         public string Name { get; set; }
+
+        [StringLength(250)]
+        public string Address { get; set; }
+
+        [StringLength(15)]
+        public string PhoneNumber { get; set; }
     }
 }

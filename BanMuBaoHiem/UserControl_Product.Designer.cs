@@ -179,7 +179,7 @@
             this.btn_close.Name = "btn_close";
             this.btn_close.Size = new System.Drawing.Size(75, 23);
             this.btn_close.TabIndex = 3;
-            this.btn_close.Text = "Đóng";
+            this.btn_close.Text = "Làm mới";
             this.btn_close.UseVisualStyleBackColor = true;
             this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
             // 
@@ -191,6 +191,7 @@
             this.btn_delete.TabIndex = 2;
             this.btn_delete.Text = "Xóa";
             this.btn_delete.UseVisualStyleBackColor = true;
+            this.btn_delete.Click += new System.EventHandler(this.btn_delete_Click);
             // 
             // btn_edit
             // 
@@ -200,6 +201,7 @@
             this.btn_edit.TabIndex = 1;
             this.btn_edit.Text = "Sửa";
             this.btn_edit.UseVisualStyleBackColor = true;
+            this.btn_edit.Click += new System.EventHandler(this.btn_edit_Click);
             // 
             // btn_insert
             // 
@@ -209,6 +211,7 @@
             this.btn_insert.TabIndex = 0;
             this.btn_insert.Text = "Thêm";
             this.btn_insert.UseVisualStyleBackColor = true;
+            this.btn_insert.Click += new System.EventHandler(this.btn_insert_Click);
             // 
             // ID
             // 
@@ -216,6 +219,7 @@
             this.ID.HeaderText = "Mã sản phẩm";
             this.ID.Name = "ID";
             this.ID.ReadOnly = true;
+            this.ID.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
             // Product_name
             // 

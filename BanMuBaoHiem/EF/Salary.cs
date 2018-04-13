@@ -11,10 +11,9 @@ namespace BanMuBaoHiem.EF
     {
         public long ID { get; set; }
 
-        public long? EmpID { get; set; }
+        public long EmpID { get; set; }
 
-        [Column("Salary")]
-        public decimal? Salary1 { get; set; }
+        public decimal? salary { get; set; }
 
         public int? WorkingDay { get; set; }
 

@@ -23,16 +23,12 @@ namespace BanMuBaoHiem.EF
                 .Property(e => e.PhoneNumber)
                 .IsUnicode(false);
 
-            modelBuilder.Entity<Employee>()
-                .Property(e => e.Salary)
-                .HasPrecision(18, 0);
-
             modelBuilder.Entity<Product>()
                 .Property(e => e.Price)
                 .HasPrecision(18, 0);
 
             modelBuilder.Entity<Salary>()
-                .Property(e => e.Salary1)
+                .Property(e => e.salary)
                 .HasPrecision(18, 0);
         }
     }
