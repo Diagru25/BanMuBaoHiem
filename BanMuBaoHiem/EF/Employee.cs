@@ -23,6 +23,7 @@ namespace BanMuBaoHiem.EF
         [StringLength(15)]
         public string PhoneNumber { get; set; }
 
-        public decimal? Salary { get; set; }
+        [StringLength(10)]
+        public string Sex { get; set; }
     }
 }
