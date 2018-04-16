@@ -33,7 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
@@ -54,25 +53,12 @@
       <HintPath>..\packages\Microsoft.Report.Viewer.11.0.0.0\lib\net\Microsoft.ReportViewer.WebForms.DLL</HintPath>
       <Private>True</Private>
     </Reference>
-=======
-    <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="EntityFramework.SqlServer">
-      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
->>>>>>> 7b54f0bf7551f0345862c42f788c96f5e2609448
     <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
-<<<<<<< HEAD
-=======
-    <Reference Include="System.Web.Services" />
->>>>>>> 7b54f0bf7551f0345862c42f788c96f5e2609448
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -102,9 +88,6 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Report.cs">
@@ -140,25 +123,13 @@
     <Compile Include="UserControl_StockIn.cs">
       <SubType>UserControl</SubType>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="UserControl_StockIn.Designer.cs" />
-=======
-    <Compile Include="UserControl_StockIn.Designer.cs">
-      <DependentUpon>UserControl_StockIn.cs</DependentUpon>
-    </Compile>
->>>>>>> 7b54f0bf7551f0345862c42f788c96f5e2609448
     <Compile Include="ViewModel\EmployeeViewModel.cs" />
     <Compile Include="ViewModel\ProductViewModel.cs" />
     <Compile Include="ViewModel\StockInViewModel.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="obj\Debug\BanMuBaoHiem.Form_main.resources" />
-    <EmbeddedResource Include="obj\Debug\BanMuBaoHiem.Properties.Resources.resources" />
-    <EmbeddedResource Include="obj\Debug\BanMuBaoHiem.UserControl_CategoryProduct.resources" />
-    <EmbeddedResource Include="obj\Debug\BanMuBaoHiem.UserControl_Employee.resources" />
-    <EmbeddedResource Include="obj\Debug\BanMuBaoHiem.UserControl_Product.resources" />
-    <EmbeddedResource Include="obj\Debug\BanMuBaoHiem.UserControl_Search.resources" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -168,10 +139,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-=======
-    <EmbeddedResource Include="Report.rdlc" />
->>>>>>> 7b54f0bf7551f0345862c42f788c96f5e2609448
     <EmbeddedResource Include="Report.resx">
       <DependentUpon>Report.cs</DependentUpon>
     </EmbeddedResource>
@@ -187,24 +154,8 @@
     <EmbeddedResource Include="UserControl_Search.resx">
       <DependentUpon>UserControl_Search.cs</DependentUpon>
     </EmbeddedResource>
-<<<<<<< HEAD
     <EmbeddedResource Include="UserControl_StockIn.resx" />
     <None Include="packages.config" />
-=======
-    <EmbeddedResource Include="UserControl_StockIn.resx">
-      <DependentUpon>UserControl_StockIn.cs</DependentUpon>
-    </EmbeddedResource>
-    <None Include="bin\Debug\BanMuBaoHiem.exe.config" />
-    <None Include="bin\Debug\BanMuBaoHiem.vshost.exe.config" />
-    <None Include="bin\Debug\BanMuBaoHiem.vshost.exe.manifest" />
-    <None Include="obj\Debug\BanMuBaoHiem.csproj.GenerateResource.Cache" />
-    <None Include="obj\Debug\BanMuBaoHiem.csprojResolveAssemblyReference.cache" />
-    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
-    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
-    <None Include="packages.config">
-      <SubType>Designer</SubType>
-    </None>
->>>>>>> 7b54f0bf7551f0345862c42f788c96f5e2609448
     <None Include="Properties\DataSources\BanMuBaoHiem.ViewModel.StockInViewModel.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -220,21 +171,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-<<<<<<< HEAD
   <ItemGroup />
-=======
-  <ItemGroup>
-    <Content Include="bin\Debug\BanMuBaoHiem.exe" />
-    <Content Include="bin\Debug\BanMuBaoHiem.pdb" />
-    <Content Include="bin\Debug\BanMuBaoHiem.vshost.exe" />
-    <Content Include="obj\Debug\BanMuBaoHiem.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Debug\BanMuBaoHiem.exe" />
-    <Content Include="obj\Debug\BanMuBaoHiem.pdb" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="obj\Debug\TempPE\" />
-  </ItemGroup>
->>>>>>> 7b54f0bf7551f0345862c42f788c96f5e2609448
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
