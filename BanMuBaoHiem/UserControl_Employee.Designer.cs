@@ -30,6 +30,8 @@
         {
             this.btn_clear = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txb_workinghours = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.cbo_sex = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txb_workingday = new System.Windows.Forms.TextBox();
@@ -50,8 +52,6 @@
             this.btn_edit = new System.Windows.Forms.Button();
             this.btn_insert = new System.Windows.Forms.Button();
             this.dgr_emp = new System.Windows.Forms.DataGridView();
-            this.txb_workinghours = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Address = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -104,6 +104,22 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(782, 195);
             this.panel1.TabIndex = 3;
+            // 
+            // txb_workinghours
+            // 
+            this.txb_workinghours.Location = new System.Drawing.Point(618, 103);
+            this.txb_workinghours.Name = "txb_workinghours";
+            this.txb_workinghours.Size = new System.Drawing.Size(147, 20);
+            this.txb_workinghours.TabIndex = 21;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(557, 106);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(56, 13);
+            this.label9.TabIndex = 20;
+            this.label9.Text = "Số giờ làm";
             // 
             // cbo_sex
             // 
@@ -288,22 +304,6 @@
             this.dgr_emp.Size = new System.Drawing.Size(782, 274);
             this.dgr_emp.TabIndex = 2;
             // 
-            // txb_workinghours
-            // 
-            this.txb_workinghours.Location = new System.Drawing.Point(618, 103);
-            this.txb_workinghours.Name = "txb_workinghours";
-            this.txb_workinghours.Size = new System.Drawing.Size(147, 20);
-            this.txb_workinghours.TabIndex = 21;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(557, 106);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(56, 13);
-            this.label9.TabIndex = 20;
-            this.label9.Text = "Số giờ làm";
-            // 
             // ID
             // 
             this.ID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
@@ -383,7 +383,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dgr_emp);
-            //this.Name = "UserControl_Employee";
+            this.Name.Name = "UserControl_Employee";
             this.Size = new System.Drawing.Size(788, 481);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

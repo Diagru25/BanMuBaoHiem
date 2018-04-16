@@ -29,17 +29,19 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pnl_main = new System.Windows.Forms.Panel();
-            this.btn_product = new System.Windows.Forms.Button();
-            this.btn_category_product = new System.Windows.Forms.Button();
-            this.btn_employee = new System.Windows.Forms.Button();
             this.btn_search_form = new System.Windows.Forms.Button();
+            this.btn_employee = new System.Windows.Forms.Button();
+            this.btn_category_product = new System.Windows.Forms.Button();
+            this.btn_product = new System.Windows.Forms.Button();
+            this.pnl_main = new System.Windows.Forms.Panel();
+            this.btn_stock_form = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.btn_stock_form);
             this.panel1.Controls.Add(this.btn_search_form);
             this.panel1.Controls.Add(this.btn_employee);
             this.panel1.Controls.Add(this.btn_category_product);
@@ -49,33 +51,15 @@
             this.panel1.Size = new System.Drawing.Size(200, 481);
             this.panel1.TabIndex = 0;
             // 
-            // pnl_main
+            // btn_search_form
             // 
-            this.pnl_main.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnl_main.Location = new System.Drawing.Point(218, 12);
-            this.pnl_main.Name = "pnl_main";
-            this.pnl_main.Size = new System.Drawing.Size(788, 481);
-            this.pnl_main.TabIndex = 1;
-            // 
-            // btn_product
-            // 
-            this.btn_product.Location = new System.Drawing.Point(3, 33);
-            this.btn_product.Name = "btn_product";
-            this.btn_product.Size = new System.Drawing.Size(194, 46);
-            this.btn_product.TabIndex = 0;
-            this.btn_product.Text = "Sản phẩm";
-            this.btn_product.UseVisualStyleBackColor = true;
-            this.btn_product.Click += new System.EventHandler(this.btn_product_Click);
-            // 
-            // btn_category_product
-            // 
-            this.btn_category_product.Location = new System.Drawing.Point(3, 104);
-            this.btn_category_product.Name = "btn_category_product";
-            this.btn_category_product.Size = new System.Drawing.Size(194, 48);
-            this.btn_category_product.TabIndex = 1;
-            this.btn_category_product.Text = "Hãng sản phẩm";
-            this.btn_category_product.UseVisualStyleBackColor = true;
-            this.btn_category_product.Click += new System.EventHandler(this.btn_category_product_Click);
+            this.btn_search_form.Location = new System.Drawing.Point(5, 313);
+            this.btn_search_form.Name = "btn_search_form";
+            this.btn_search_form.Size = new System.Drawing.Size(194, 45);
+            this.btn_search_form.TabIndex = 3;
+            this.btn_search_form.Text = "Tìm kiếm";
+            this.btn_search_form.UseVisualStyleBackColor = true;
+            this.btn_search_form.Click += new System.EventHandler(this.btn_search_form_Click);
             // 
             // btn_employee
             // 
@@ -87,15 +71,43 @@
             this.btn_employee.UseVisualStyleBackColor = true;
             this.btn_employee.Click += new System.EventHandler(this.btn_employee_Click);
             // 
-            // btn_search_form
+            // btn_category_product
             // 
-            this.btn_search_form.Location = new System.Drawing.Point(3, 257);
-            this.btn_search_form.Name = "btn_search_form";
-            this.btn_search_form.Size = new System.Drawing.Size(194, 45);
-            this.btn_search_form.TabIndex = 3;
-            this.btn_search_form.Text = "Tìm kiếm";
-            this.btn_search_form.UseVisualStyleBackColor = true;
-            this.btn_search_form.Click += new System.EventHandler(this.btn_search_form_Click);
+            this.btn_category_product.Location = new System.Drawing.Point(3, 104);
+            this.btn_category_product.Name = "btn_category_product";
+            this.btn_category_product.Size = new System.Drawing.Size(194, 48);
+            this.btn_category_product.TabIndex = 1;
+            this.btn_category_product.Text = "Hãng sản phẩm";
+            this.btn_category_product.UseVisualStyleBackColor = true;
+            this.btn_category_product.Click += new System.EventHandler(this.btn_category_product_Click);
+            // 
+            // btn_product
+            // 
+            this.btn_product.Location = new System.Drawing.Point(3, 33);
+            this.btn_product.Name = "btn_product";
+            this.btn_product.Size = new System.Drawing.Size(194, 46);
+            this.btn_product.TabIndex = 0;
+            this.btn_product.Text = "Sản phẩm";
+            this.btn_product.UseVisualStyleBackColor = true;
+            this.btn_product.Click += new System.EventHandler(this.btn_product_Click);
+            // 
+            // pnl_main
+            // 
+            this.pnl_main.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnl_main.Location = new System.Drawing.Point(218, 12);
+            this.pnl_main.Name = "pnl_main";
+            this.pnl_main.Size = new System.Drawing.Size(788, 481);
+            this.pnl_main.TabIndex = 1;
+            // 
+            // btn_stock_form
+            // 
+            this.btn_stock_form.Location = new System.Drawing.Point(3, 247);
+            this.btn_stock_form.Name = "btn_stock_form";
+            this.btn_stock_form.Size = new System.Drawing.Size(194, 45);
+            this.btn_stock_form.TabIndex = 4;
+            this.btn_stock_form.Text = "Nhập kho";
+            this.btn_stock_form.UseVisualStyleBackColor = true;
+            this.btn_stock_form.Click += new System.EventHandler(this.btn_stock_form_Click);
             // 
             // Form_main
             // 
@@ -119,6 +131,7 @@
         private System.Windows.Forms.Button btn_category_product;
         private System.Windows.Forms.Button btn_product;
         private System.Windows.Forms.Panel pnl_main;
+        private System.Windows.Forms.Button btn_stock_form;
     }
 }
 

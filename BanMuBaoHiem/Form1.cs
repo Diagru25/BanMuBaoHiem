@@ -60,5 +60,16 @@ namespace BanMuBaoHiem
 
             pnl_main.Controls.Add(frm);
         }
+
+        private void btn_stock_form_Click(object sender, EventArgs e)
+        {
+            UserControl_StockIn frm = new UserControl_StockIn();
+
+            frm.Dock = DockStyle.Fill;
+
+            pnl_main.Controls.Clear();
+
+            pnl_main.Controls.Add(frm);
+        }
     }
 }
